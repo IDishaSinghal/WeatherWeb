@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.background-image{
+  background-image: url('./components/assests/design2.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+   /* Adjust this value to control how far down the heading appears */
+  font-size: 2em; /* Optional: Adjust font size as needed */
+  color: white; /* Optional: Set a color that contrasts with the background */
+}
+
+
+

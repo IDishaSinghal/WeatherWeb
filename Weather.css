@@ -1,0 +1,96 @@
+body,html{
+    
+    padding : 0;
+    height :100%;
+    overflow: hidden;
+    align-content: center;
+    
+}
+.weather-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.sunny{
+    background-image: url('./assests/Sunny.png');
+    background-size: cover;
+}
+.cloudy{
+    background-image: url('./assests/Cloudy.png');
+    background-size: cover;
+}
+.rain{
+    background-image: url('./assests/Rainy.png');
+    background-size: cover;
+}
+.thunderstorm{
+    background-image: url('./assests/Thunderstorm.png');
+    background-size: cover;
+}
+.snow{
+    background-image: url('./assests/Snowy.png');
+    background-size: cover;
+}
+.heading {
+    font-family: 'Playfair display', serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color:#181239;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-top: 40px;
+}
+.search-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.search-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 500px;
+    margin-top: 30px;
+}
+.button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #0056b3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.result-box{
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
